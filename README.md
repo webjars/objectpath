@@ -1,4 +1,7 @@
 ObjectPath-webjar
 =================
+Build a webjar for the ObjectPath library
 
-Build a webjar for the ObjectPath.js library
+ObjectPath - https://github.com/mike-marcacci/objectpath
+
+More information about WebJars - http://www.webjars.org
