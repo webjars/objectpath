@@ -21,7 +21,7 @@
         <upstream.version>1.0.5</upstream.version>
         <upstream.url>scm:git:https://github.com/webjars/objectpath.git</upstream.url>
         <objectpath.sourceUrl>https://github.com/mike-marcacci/objectpath/archive</objectpath.sourceUrl>
-        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${version}</destDir>
+        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
     </properties>
 
     <licenses>
