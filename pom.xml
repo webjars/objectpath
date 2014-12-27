@@ -11,16 +11,23 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>objectpath</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>1.0.5-1-SNAPSHOT</version>
     <name>ObjectPath</name>
     <description>Parse js object paths using both dot and bracket notation. Stringify an array of properties into a valid path.</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>1.1.0</upstream.version>
+        <upstream.version>1.0.5</upstream.version>
         <objectpath.sourceUrl>https://github.com/mike-marcacci/objectpath/archive</objectpath.sourceUrl>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
+        <requirejs>
+            {
+                "paths": {
+                    "objectpath": "ObjectPath"
+                }
+            }
+        </requirejs>
     </properties>
 
     <licenses>
